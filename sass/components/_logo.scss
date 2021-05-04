@@ -1,0 +1,16 @@
+.logo {
+  color: var(--primary-text-color);
+  font-family: var(--raleway-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+
+  &--accent {
+    color: var(--accent-color);
+  }
+
+  &--white {
+    color: var(--primary-white-color);
+  }
+}
