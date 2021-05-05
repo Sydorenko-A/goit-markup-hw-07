@@ -8,7 +8,7 @@
   margin-bottom: 50px;
   justify-content: center;
 }
-.filters-button {
+.filters__button {
   color: var(--primary-text-color);
   font-family: var(--roboto-font);
   font-weight: 500;
@@ -35,14 +35,14 @@
   margin-right: 8px;
 }
 
-.portfolio {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.portfolio__list {
+.portfolio__item {
   flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
   margin-top: 30px;
